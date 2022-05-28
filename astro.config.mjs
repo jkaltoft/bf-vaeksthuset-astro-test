@@ -4,5 +4,5 @@ import preact from '@astrojs/preact';
 // https://astro.build/config
 export default defineConfig({
 	integrations: [preact()],
-	site: 'https://www.bf-vaeksthuset.dk'
+	site: 'https://www.bf-vaeksthuset.dk/test/'
 });
