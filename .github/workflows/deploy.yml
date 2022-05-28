@@ -51,4 +51,4 @@ jobs:
           port: 21 # todo replace with your web hosts ftps port
           # dry-run: true
           local-dir: ./dist/
-          server-dir: /public_html/test/
+          server-dir: /astro/
