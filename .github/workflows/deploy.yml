@@ -49,6 +49,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21 # todo replace with your web hosts ftps port
-          dry-run: true
+          # dry-run: true
           local-dir: ./dist/
           server-dir: /public_html/test/
