@@ -1,0 +1,53 @@
+---
+import MainHead from "../components/MainHead.astro";
+import Footer from "../components/Footer/index.jsx";
+import Nav from "../components/Nav/index.jsx";
+---
+
+<html lang="en">
+  <head>
+    <MainHead
+      title="Bofællesskabet Væksthuset (Astro)"
+      description="Handler om Bofællesskabet Væksthuset"
+    />
+    <style lang="scss">
+      h1 {
+        line-height: 1.3;
+      }
+
+      .wrapper__readable {
+        max-width: initial;
+        width: min(65ch, 100% - 2 * 2rem);
+        padding-inline: 2rem;
+
+        p {
+          line-height: 1.7;
+          font-size: var(--f-u1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Nav />
+    <div class="wrapper wrapper__readable">
+      <div class="content">
+        <h1>Bo&shy;fæl&shy;les&shy;ska&shy;bet Vækst&shy;hus&shy;et (Astro)</h1>
+        <p>
+          Væksthuset er et bofællesskab med 16 andelsboliger og et fælleshus. I
+          bofællesskabet Væksthuset har vi separate husstande, men deler vores
+          smukke omgivelser og spiser sammen fire dage om ugen.
+        </p>
+        <p>
+          På bofællesskabets fællesarealer er der bl.a. spisesal, køkken,
+          bordtennis, musikrum, gæsteværelse, sandkasse, legehus, gynger,
+          drivhus mm.
+        </p>
+        <p>
+          Bofællesskabet Væksthuset ligger på en smuk 8000 m2 stor grund 17 km
+          fra Århus C. I bofællesskabet bor 24 voksne og 20 børn.
+        </p>
+      </div>
+    </div>
+    <Footer />
+  </body>
+</html>

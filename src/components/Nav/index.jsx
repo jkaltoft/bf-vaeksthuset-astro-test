@@ -13,8 +13,14 @@ function Nav() {
       <a className={Styles.link} href="/about">
         About
       </a>
-      <a className={Styles.link} href="/my-page">
-        My page
+      <a className={Styles.link} href="/historie">
+        Historie
+      </a>
+      <a className={Styles.link} href="/my-page-markdown">
+        My page (Markdown)
+      </a>
+      <a className={Styles.link} href="/my-page-astro">
+        My page (Astro)
       </a>
       <a className={Styles.social} href="https://twitter.com/me">
         <svg
